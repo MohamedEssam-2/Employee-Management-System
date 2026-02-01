@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D44B4D92-D573-4ECA-825D-0EA0CCB2ABC0}|Demo.PL\\Demo.PL.csproj|i:\\vs projects c#\\project-2\\demo-session-6\\demo-solution\\demo.pl\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44B4D92-D573-4ECA-825D-0EA0CCB2ABC0}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44B4D92-D573-4ECA-825D-0EA0CCB2ABC0}|Demo.PL\\Demo.PL.csproj|i:\\vs projects c#\\project-2\\demo-session-6\\demo-solution\\demo.pl\\views\\shared\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D44B4D92-D573-4ECA-825D-0EA0CCB2ABC0}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\shared\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44B4D92-D573-4ECA-825D-0EA0CCB2ABC0}|Demo.PL\\Demo.PL.csproj|i:\\vs projects c#\\project-2\\demo-session-6\\demo-solution\\demo.pl\\views\\shared\\_detailseditpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D44B4D92-D573-4ECA-825D-0EA0CCB2ABC0}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\shared\\_detailseditpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44B4D92-D573-4ECA-825D-0EA0CCB2ABC0}|Demo.PL\\Demo.PL.csproj|i:\\vs projects c#\\project-2\\demo-session-6\\demo-solution\\demo.pl\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D44B4D92-D573-4ECA-825D-0EA0CCB2ABC0}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44B4D92-D573-4ECA-825D-0EA0CCB2ABC0}|Demo.PL\\Demo.PL.csproj|i:\\vs projects c#\\project-2\\demo-session-6\\demo-solution\\demo.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D44B4D92-D573-4ECA-825D-0EA0CCB2ABC0}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44B4D92-D573-4ECA-825D-0EA0CCB2ABC0}|Demo.PL\\Demo.PL.csproj|i:\\vs projects c#\\project-2\\demo-session-6\\demo-solution\\demo.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D44B4D92-D573-4ECA-825D-0EA0CCB2ABC0}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44B4D92-D573-4ECA-825D-0EA0CCB2ABC0}|Demo.PL\\Demo.PL.csproj|i:\\vs projects c#\\project-2\\demo-session-6\\demo-solution\\demo.pl\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D44B4D92-D573-4ECA-825D-0EA0CCB2ABC0}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D44B4D92-D573-4ECA-825D-0EA0CCB2ABC0}|Demo.PL\\Demo.PL.csproj|i:\\vs projects c#\\project-2\\demo-session-6\\demo-solution\\demo.pl\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D44B4D92-D573-4ECA-825D-0EA0CCB2ABC0}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87519E96-3713-47ED-B971-6A3E4ECE877A}|Demo-BLL\\Demo-BLL.csproj|i:\\vs projects c#\\project-2\\demo-session-6\\demo-solution\\demo-bll\\attachment\\class\\attachmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87519E96-3713-47ED-B971-6A3E4ECE877A}|Demo-BLL\\Demo-BLL.csproj|solutionrelative:demo-bll\\attachment\\class\\attachmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87519E96-3713-47ED-B971-6A3E4ECE877A}|Demo-BLL\\Demo-BLL.csproj|i:\\vs projects c#\\project-2\\demo-session-6\\demo-solution\\demo-bll\\services\\classes\\employee_service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87519E96-3713-47ED-B971-6A3E4ECE877A}|Demo-BLL\\Demo-BLL.csproj|solutionrelative:demo-bll\\services\\classes\\employee_service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 986,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AttachmentService.cs",
+              "DocumentMoniker": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo-BLL\\Attachment\\Class\\AttachmentService.cs",
+              "RelativeDocumentMoniker": "Demo-BLL\\Attachment\\Class\\AttachmentService.cs",
+              "ToolTip": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo-BLL\\Attachment\\Class\\AttachmentService.cs",
+              "RelativeToolTip": "Demo-BLL\\Attachment\\Class\\AttachmentService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAswCUAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T14:56:39.987Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Employee_Service.cs",
+              "DocumentMoniker": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo-BLL\\Services\\Classes\\Employee_Service.cs",
+              "RelativeDocumentMoniker": "Demo-BLL\\Services\\Classes\\Employee_Service.cs",
+              "ToolTip": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo-BLL\\Services\\Classes\\Employee_Service.cs",
+              "RelativeToolTip": "Demo-BLL\\Services\\Classes\\Employee_Service.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAywJYAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-31T21:38:49.392Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo.PL\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Demo.PL\\Controllers\\UserController.cs",
+              "ToolTip": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo.PL\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Demo.PL\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAUwFwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T13:34:12.376Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_DetailsEditPartialView.cshtml",
+              "DocumentMoniker": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo.PL\\Views\\Shared\\_DetailsEditPartialView.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\Shared\\_DetailsEditPartialView.cshtml",
+              "ToolTip": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo.PL\\Views\\Shared\\_DetailsEditPartialView.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\Shared\\_DetailsEditPartialView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T21:45:12.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo.PL\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo.PL\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T21:45:07.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo.PL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo.PL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T21:36:12.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_AuthLayout.cshtml",
+              "DocumentMoniker": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo.PL\\Views\\Shared\\_AuthLayout.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\Shared\\_AuthLayout.cshtml",
+              "ToolTip": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo.PL\\Views\\Shared\\_AuthLayout.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\Shared\\_AuthLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T21:35:39.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo.PL\\Views\\User\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\User\\Edit.cshtml",
+              "ToolTip": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo.PL\\Views\\User\\Edit.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\User\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T21:29:37.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo.PL\\Views\\User\\Details.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\User\\Details.cshtml",
+              "ToolTip": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo.PL\\Views\\User\\Details.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\User\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T21:12:34.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo.PL\\Program.cs",
+              "RelativeDocumentMoniker": "Demo.PL\\Program.cs",
+              "ToolTip": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo.PL\\Program.cs",
+              "RelativeToolTip": "Demo.PL\\Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAD4v1cAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T21:05:26.984Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 283,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 58,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 19,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
