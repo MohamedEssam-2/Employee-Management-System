@@ -52,6 +52,7 @@ namespace Demo.PL.Controllers
         }
 
         [HttpGet]
+      
         public IActionResult Edit(string? id)
         {
             if (id is null) return BadRequest();
@@ -59,6 +60,7 @@ namespace Demo.PL.Controllers
             if (user is null) return NotFound();
             var userVM = new UserViewModel()
             {
+                Id = user.Id,
                 Email = user.Email!,
                 FirstName = user.FirstName,
                 LastName = user.LastName,

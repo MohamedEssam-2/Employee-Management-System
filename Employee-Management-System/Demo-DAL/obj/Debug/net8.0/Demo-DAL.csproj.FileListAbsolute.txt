@@ -22,3 +22,16 @@ I:\vs projects c#\project-2\Demo-session-6\Demo-Solution\Demo-DAL\obj\Debug\net8
 I:\vs projects c#\project-2\Demo-session-6\Demo-Solution\Demo-DAL\obj\Debug\net8.0\refint\Demo-DAL.dll
 I:\vs projects c#\project-2\Demo-session-6\Demo-Solution\Demo-DAL\obj\Debug\net8.0\Demo-DAL.pdb
 I:\vs projects c#\project-2\Demo-session-6\Demo-Solution\Demo-DAL\obj\Debug\net8.0\ref\Demo-DAL.dll
+I:\Downloads\cmder\Employee-Management-System\Employee-Management-System\Demo-DAL\bin\Debug\net8.0\Demo-DAL.deps.json
+I:\Downloads\cmder\Employee-Management-System\Employee-Management-System\Demo-DAL\bin\Debug\net8.0\Demo-DAL.dll
+I:\Downloads\cmder\Employee-Management-System\Employee-Management-System\Demo-DAL\bin\Debug\net8.0\Demo-DAL.pdb
+I:\Downloads\cmder\Employee-Management-System\Employee-Management-System\Demo-DAL\obj\Debug\net8.0\Demo-DAL.csproj.AssemblyReference.cache
+I:\Downloads\cmder\Employee-Management-System\Employee-Management-System\Demo-DAL\obj\Debug\net8.0\Demo-DAL.GeneratedMSBuildEditorConfig.editorconfig
+I:\Downloads\cmder\Employee-Management-System\Employee-Management-System\Demo-DAL\obj\Debug\net8.0\Demo-DAL.AssemblyInfoInputs.cache
+I:\Downloads\cmder\Employee-Management-System\Employee-Management-System\Demo-DAL\obj\Debug\net8.0\Demo-DAL.AssemblyInfo.cs
+I:\Downloads\cmder\Employee-Management-System\Employee-Management-System\Demo-DAL\obj\Debug\net8.0\Demo-DAL.csproj.CoreCompileInputs.cache
+I:\Downloads\cmder\Employee-Management-System\Employee-Management-System\Demo-DAL\obj\Debug\net8.0\Demo-DAL.sourcelink.json
+I:\Downloads\cmder\Employee-Management-System\Employee-Management-System\Demo-DAL\obj\Debug\net8.0\Demo-DAL.dll
+I:\Downloads\cmder\Employee-Management-System\Employee-Management-System\Demo-DAL\obj\Debug\net8.0\refint\Demo-DAL.dll
+I:\Downloads\cmder\Employee-Management-System\Employee-Management-System\Demo-DAL\obj\Debug\net8.0\Demo-DAL.pdb
+I:\Downloads\cmder\Employee-Management-System\Employee-Management-System\Demo-DAL\obj\Debug\net8.0\ref\Demo-DAL.dll

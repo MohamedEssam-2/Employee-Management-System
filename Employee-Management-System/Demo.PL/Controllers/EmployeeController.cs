@@ -121,7 +121,7 @@ namespace Demo.PL.Controllers
         #endregion
 
         #region Details
-        #region Details GEt
+        #region Details Get
         [HttpGet]
         public IActionResult Details(int? id)
         {
@@ -134,7 +134,7 @@ namespace Demo.PL.Controllers
         #endregion
 
         #region New Edit With using Partail View
-        #region Edit GEt
+        #region Edit Get
         [HttpGet]
         public IActionResult Edit(int? id)
         {

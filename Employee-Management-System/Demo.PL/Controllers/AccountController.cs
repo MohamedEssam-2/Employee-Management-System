@@ -107,9 +107,6 @@ namespace Demo.PL.Controllers
                 var user = _userManager.FindByEmailAsync(model.Email).Result;
 
                 if (user is not null)
-
-
-
                 {
                     //Create Reset Password URL
                     //BaseUrl/Account/ResetPasswordLink?email
