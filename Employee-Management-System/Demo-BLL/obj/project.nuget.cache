@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VG4tcGSHOdw=",
+  "dgSpecHash": "TrypG6Iwghk=",
   "success": true,
-  "projectFilePath": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo-BLL\\Demo-BLL.csproj",
+  "projectFilePath": "I:\\Downloads\\cmder\\Employee-Management-System\\Employee-Management-System\\Demo-BLL\\Demo-BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mohamed Essam\\.nuget\\packages\\automapper\\15.0.1\\automapper.15.0.1.nupkg.sha512",
     "C:\\Users\\Mohamed Essam\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

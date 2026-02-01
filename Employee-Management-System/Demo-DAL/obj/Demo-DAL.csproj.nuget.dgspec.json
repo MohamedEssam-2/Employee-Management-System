@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo-DAL\\Demo-DAL.csproj": {}
+    "I:\\Downloads\\cmder\\Employee-Management-System\\Employee-Management-System\\Demo-DAL\\Demo-DAL.csproj": {}
   },
   "projects": {
-    "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo-DAL\\Demo-DAL.csproj": {
+    "I:\\Downloads\\cmder\\Employee-Management-System\\Employee-Management-System\\Demo-DAL\\Demo-DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo-DAL\\Demo-DAL.csproj",
+        "projectUniqueName": "I:\\Downloads\\cmder\\Employee-Management-System\\Employee-Management-System\\Demo-DAL\\Demo-DAL.csproj",
         "projectName": "Demo-DAL",
-        "projectPath": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo-DAL\\Demo-DAL.csproj",
+        "projectPath": "I:\\Downloads\\cmder\\Employee-Management-System\\Employee-Management-System\\Demo-DAL\\Demo-DAL.csproj",
         "packagesPath": "C:\\Users\\Mohamed Essam\\.nuget\\packages\\",
-        "outputPath": "I:\\vs projects c#\\project-2\\Demo-session-6\\Demo-Solution\\Demo-DAL\\obj\\",
+        "outputPath": "I:\\Downloads\\cmder\\Employee-Management-System\\Employee-Management-System\\Demo-DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

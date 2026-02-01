@@ -17,125 +17,125 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Demo.PL
 build_property.RootNamespace = Demo.PL
-build_property.ProjectDir = I:\vs projects c#\project-2\Demo-session-6\Demo-Solution\Demo.PL\
+build_property.ProjectDir = I:\Downloads\cmder\Employee-Management-System\Employee-Management-System\Demo.PL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = I:\vs projects c#\project-2\Demo-session-6\Demo-Solution\Demo.PL
+build_property.MSBuildProjectDirectory = I:\Downloads\cmder\Employee-Management-System\Employee-Management-System\Demo.PL
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/Account/CheckYourBox.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/Account/CheckYourBox.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGVja1lvdXJCb3guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/Account/ForgetPassword.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/Account/ForgetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3JnZXRQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/Account/Login.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/Account/Register.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/Account/ResetPasswordLink.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/Account/ResetPasswordLink.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkTGluay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/Department/Create.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/Department/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/Department/Delete.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/Department/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/Department/Department Partail Views/_CreateEditPartialView.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/Department/Department Partail Views/_CreateEditPartialView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZXBhcnRtZW50IFBhcnRhaWwgVmlld3NcX0NyZWF0ZUVkaXRQYXJ0aWFsVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/Department/Details.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/Department/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/Department/Edit.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/Department/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/Department/Index.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/Department/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/Employee/Create.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/Employee/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/Employee/Details.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/Employee/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/Employee/Edit.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/Employee/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/Employee/Employee Partail Views/_CreateEditEmpPartialView.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/Employee/Employee Partail Views/_CreateEditEmpPartialView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRW1wbG95ZWUgUGFydGFpbCBWaWV3c1xfQ3JlYXRlRWRpdEVtcFBhcnRpYWxWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/Employee/Index.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/Employee/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/Home/Index.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/Home/Privacy.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/Shared/Error.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/Shared/_AuthLayout.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/Shared/_AuthLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BdXRoTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/Shared/_DetailsEditPartialView.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/Shared/_DetailsEditPartialView.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EZXRhaWxzRWRpdFBhcnRpYWxWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/Shared/_ValidationScriptsPartial.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/User/Details.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/User/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/User/Edit.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/User/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/User/Index.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/_ViewImports.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/_ViewStart.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/vs projects c\#/project-2/Demo-session-6/Demo-Solution/Demo.PL/Views/Shared/_Layout.cshtml]
+[I:/Downloads/cmder/Employee-Management-System/Employee-Management-System/Demo.PL/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-717xabic2n
