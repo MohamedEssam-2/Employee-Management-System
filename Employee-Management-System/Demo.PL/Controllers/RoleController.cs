@@ -1,11 +1,16 @@
 ﻿using System.Buffers;
+using Demo.PL.ViewModels.IdentityViewModels;
 using Demo.PL.ViewModels.RoleViewModel;
+using Demo_DAL.Models.IdentityModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Demo.PL.Controllers
 {
-    public class RoleController(RoleManager<IdentityRole> _roleManager,IWebHostEnvironment env) : Controller
+    [Authorize(Roles ="Super Admin")]
+    public class RoleController(RoleManager<IdentityRole> _roleManager,IWebHostEnvironment env,UserManager<ApplicationUser>_userManager) : Controller
     {
         public IActionResult Index(string? searchValue)
         {
@@ -64,41 +69,77 @@ namespace Demo.PL.Controllers
             return View(roleViewModel);
         }
         [HttpGet]
-        public IActionResult Edit()
+        public  IActionResult Edit(string? id )
         {
-            return View();
+            if (id is null)
+                return BadRequest();
+            var role =  _roleManager.FindByIdAsync(id).Result;
+            if (role is null)
+                return NotFound();
+            var users =  _userManager.Users.ToListAsync().Result;
+            return View(new RoleViewModel
+            {
+                Id = role.Id,
+                Name = role.Name,
+                Users = users.Select(user => new UserRoleViewModel
+                {
+                    UserId = user.Id,
+                    UserName = user.UserName,
+                    IsSelected = _userManager.IsInRoleAsync(user, role.Name).Result
+                }).ToList()
+            });
         }
         [HttpPost]
-        public IActionResult Edit(string? id ,RoleViewModel roleViewModel)
+        public async Task<IActionResult> Edit(string id, RoleViewModel roleViewModel)
         {
-            string msg="";
+            if (id != roleViewModel.Id)
+                return BadRequest();
+
             if (!ModelState.IsValid)
-            {
                 return View(roleViewModel);
-            }
-            if (id !=roleViewModel.Id) return BadRequest();
+
             try
             {
-                var role = _roleManager.FindByIdAsync(id).Result;
-                if (role is null) return BadRequest();
-                ;
+                var role = await _roleManager.FindByIdAsync(id);
+                if (role is null)
+                    return NotFound();
+
+                // Update role name
                 role.Name = roleViewModel.Name;
-                var updateRole = _roleManager.UpdateAsync(role).Result;
-                if (updateRole.Succeeded)
+                var result = await _roleManager.UpdateAsync(role);
+
+                if (!result.Succeeded)
                 {
-                    return  RedirectToAction("Index");
+                    foreach (var error in result.Errors)
+                        ModelState.AddModelError(string.Empty, error.Description);
+
+                    return View(roleViewModel);
                 }
-                else
+
+                // Update users in role
+                foreach (var userRole in roleViewModel.Users)
                 {
-                    msg = "Role Can not Be Updated";
+                    var user = await _userManager.FindByIdAsync(userRole.UserId);
+                    if (user == null) continue;
+
+                    bool isInRole = await _userManager.IsInRoleAsync(user, role.Name);
+
+                    if (userRole.IsSelected && !isInRole)
+                        await _userManager.AddToRoleAsync(user, role.Name);
+
+                    else if (!userRole.IsSelected && isInRole)
+                        await _userManager.RemoveFromRoleAsync(user, role.Name);
                 }
+
+                return RedirectToAction(nameof(Index));
             }
-            catch(Exception ex )
+            catch (Exception ex)
             {
-                msg = env.IsDevelopment() ? ex.Message : "Role Can not be Updated , Error Happen Here ! ";
+                ModelState.AddModelError(string.Empty,
+                    env.IsDevelopment() ? ex.Message : "Role cannot be updated");
+
+                return View(roleViewModel);
             }
-            ModelState.AddModelError("", msg);
-            return View(roleViewModel);
         }
 
 

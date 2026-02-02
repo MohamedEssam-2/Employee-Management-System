@@ -66,7 +66,13 @@ namespace Demo.PL
             //builder.Services.AddAutoMapper(typeof(Demo_BLL.Profiles.Mapping_Profile).Assembly);
             builder.Services.AddAutoMapper(m=>m.AddProfile(new Mapping_Profile()));
 
-
+            builder.Services.ConfigureApplicationCookie(config =>
+            {
+                config.ExpireTimeSpan = TimeSpan.FromDays(2);
+                config.LoginPath = "/Account/Login";
+                config.LogoutPath = "/Account/Logout";
+                config.AccessDeniedPath = "/Home/Error";
+            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -79,11 +85,15 @@ namespace Demo.PL
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
-            app.UseRouting();
+            app.UseRouting();             
+
+            app.UseAuthentication();      
+            app.UseAuthorization();
 
             app.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Account}/{action=Register}/{id?}");
+                        name: "default",
+                        pattern: "{controller=Account}/{action=Register}");
+
 
             app.Run();
         }

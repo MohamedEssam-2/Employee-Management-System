@@ -1,24 +1,57 @@
 ﻿@model RoleViewModel
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Edit";
 }
 
-<div class="row justify-content-center align-content-center mt-3">
+<div class="row justify-content-center mt-3">
     <h1 class="col-8 my-4">Edit Role</h1>
-    <form method="post" asp-controller="Role" asp-action="Edit" class="col-8">
-        <div asp-validation-summary="ModelOnly"></div>   
+
+    <form asp-action="Edit" asp-controller="Role" method="post" class="col-8">
+
+        <!-- Hidden Id -->
+        <input type="hidden" asp-for="Id" />
+
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <!-- Role Name -->
         <div class="form-group mb-3">
-            <label class="form-label" asp-for="Name"></label>
+            <label asp-for="Name" class="form-label"></label>
             <input asp-for="Name" class="form-control" />
             <span asp-validation-for="Name" class="text-danger"></span>
-        </div>   
-        <div class="mt-4 m-auto">
-            <input class="btn btn-primary" type="submit" value="Edit" />
-            <a asp-controller="Role" asp-action="Index" class="btn btn-outline-dark">Back to list</a>
+        </div>
+
+        <hr />
+
+        <!-- Users -->
+        <h5 class="mb-3">Users in this Role</h5>
+
+        @if (Model.Users != null && Model.Users.Any())
+        {
+            for (int i = 0; i < Model.Users.Count; i++)
+            {
+                                <div class="form-check mb-2">
+                                    <input asp-for="Users[i].IsSelected" class="form-check-input" />
+                                    <label class="form-check-label">
+                        @Model.Users[i].UserName
+                                    </label>
+
+                                    <input type="hidden" asp-for="Users[i].UserId" />
+                                    <input type="hidden" asp-for="Users[i].UserName" />
+                                </div>
+            }
+        }
+        else
+        {
+                    <p class="text-muted">No users found</p>
+        }
+
+        <div class="mt-4">
+            <input type="submit" value="Save" class="btn btn-success" />
+            <a asp-action="Index" class="btn btn-outline-dark">Back to list</a>
         </div>
     </form>
 </div>
 
 @section ValidationScripts {
-        <partial name="_ValidationScriptsPartial" />
+            <partial name="_ValidationScriptsPartial" />
 }
