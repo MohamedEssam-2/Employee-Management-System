@@ -97,9 +97,34 @@ namespace Demo.PL.Controllers
             {
                 msg = env.IsDevelopment() ? ex.Message : "Role Can not be Updated , Error Happen Here ! ";
             }
+            ModelState.AddModelError("", msg);
             return View(roleViewModel);
         }
+
+
+        [HttpPost]
+        public IActionResult Delete(string id)
+        {
+            var user = _roleManager.FindByIdAsync(id).Result;
+            if (user is null) return NotFound();
+            string msg="";
+            try
+            {
+                var result = _roleManager.DeleteAsync(user).Result;
+                if (result.Succeeded) RedirectToAction(nameof(Index));
+                else
+                {
+                    msg = "the user can not be deletd";
+                }
+            }
+            catch
+            {
+                ModelState.AddModelError(string.Empty, "An Error Happen When Edit the User ");
+            }
+            return RedirectToAction(nameof(Index));
+        }
     }
+}
 
     
-}
+
