@@ -243,8 +243,8 @@ Implements soft delete pattern:
 
 **Mohamed Essam**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: mido8786essam2@gmail.com
+- GitHub: [@MohamedEssam-2](https://github.com/MohamedEssam-2)
+
 
 
 
