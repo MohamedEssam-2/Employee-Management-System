@@ -3,8 +3,7 @@
 A comprehensive web-based Employee Management System built with ASP.NET Core MVC, Entity Framework Core, and SQL Server. This application provides full CRUD operations for managing employees and departments, along with robust authentication and authorization using ASP.NET Core Identity.
 
 ![.NET](https://img.shields.io/badge/.NET-8.0-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Status](https://img.shields.io/badge/status-active-success)
+
 
 ## 📋 Table of Contents
 
