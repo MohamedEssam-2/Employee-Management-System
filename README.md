@@ -73,7 +73,7 @@ A comprehensive web-based Employee Management System built with ASP.NET Core MVC
 - **Email**: SMTP (System.Net.Mail)
 - **File Upload**: IFormFile with validation
 
-##  Architecture
+##  💳 Architecture
 
 This project follows a **3-tier architecture** pattern:
 
