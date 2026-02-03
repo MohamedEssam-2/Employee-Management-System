@@ -160,7 +160,7 @@ Employee-Management-System/
 └── Demo-Solution.sln          # Solution File
 ```
 
-## 🗃️ Database Schema
+## 📁 Database Schema
 
 ### Main Tables
 
