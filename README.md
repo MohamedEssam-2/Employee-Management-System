@@ -14,7 +14,6 @@ A comprehensive web-based Employee Management System built with ASP.NET Core MVC
 - [Getting Started](#-getting-started)
 - [Project Structure](#-project-structure)
 - [Database Schema](#-database-schema)
-- [Screenshots](#-screenshots)
 - [API Endpoints](#-api-endpoints)
 - [Contributing](#-contributing)
 - [License](#-license)
@@ -110,7 +109,7 @@ This project follows a **3-tier architecture** pattern:
 - **Unit of Work**: Coordinating multiple repository operations
 - **Dependency Injection**: Loose coupling and testability
 - **DTO Pattern**: Data transfer between layers
-- **Factory Pattern**: Entity creation
+
 
 ## 🚀 Getting Started
 
@@ -129,39 +128,6 @@ This project follows a **3-tier architecture** pattern:
    cd employee-management-system
    ```
 
-2. **Update Connection String**
-   
-   Open `Demo.PL/appsettings.json` and update the connection string:
-   ```json
-   {
-     "ConnectionStrings": {
-       "DefaultConnection": "Server=.;Database=MvcDemoDB;Trusted_Connection=True;TrustServerCertificate=True"
-     }
-   }
-   ```
-
-3. **Update Email Settings** (Optional)
-   
-   In `Demo.PL/Utilities/EmailSetting.cs`, update SMTP credentials:
-   ```csharp
-   client.Credentials = new NetworkCredential("your-email@gmail.com", "your-app-password");
-   ```
-
-4. **Apply Database Migrations**
-   ```bash
-   cd Demo-DAL
-   dotnet ef database update
-   ```
-
-5. **Run the Application**
-   ```bash
-   cd ../Demo.PL
-   dotnet run
-   ```
-
-6. **Access the Application**
-   
-   Navigate to `https://localhost:7108` in your browser
 
 ### Default Admin Account
 
@@ -206,23 +172,6 @@ Employee-Management-System/
 - **Employees**: Employee information
 - **Departments**: Department information
 
-### Relationships
-
-- One Department → Many Employees
-- One User → Many Roles (Many-to-Many)
-
-## 📸 Screenshots
-
-*Add screenshots of your application here*
-
-### Dashboard
-![Dashboard Screenshot](path/to/screenshot.png)
-
-### Employee Management
-![Employee List](path/to/screenshot.png)
-
-### Department Management
-![Department Details](path/to/screenshot.png)
 
 ## 🔌 API Endpoints
 
@@ -291,25 +240,6 @@ Implements soft delete pattern:
 - Maintains data integrity
 - Allows data recovery
 
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Coding Standards
-- Follow C# coding conventions
-- Write meaningful commit messages
-- Add comments for complex logic
-- Update documentation as needed
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
@@ -318,17 +248,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - GitHub: [@yourusername](https://github.com/yourusername)
 - Email: mido8786essam2@gmail.com
 
-## 🙏 Acknowledgments
 
-- ASP.NET Core Documentation
-- Entity Framework Core Documentation
-- Bootstrap Team
-- Font Awesome Icons
-- Colorlib for authentication templates
-
-## 📞 Support
-
-For support, email mido8786essam2@gmail.com or create an issue in the repository.
 
 ---
 
