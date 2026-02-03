@@ -8,7 +8,7 @@ A comprehensive web-based Employee Management System built with ASP.NET Core MVC
 ## 📋 Table of Contents
 
 - [Features](#-features)
-- [Tech Stack](#tech-stack)
+- [Tech Stack](#-Tech-Stack)
 - [Architecture](#-architecture)
 - [Getting Started](#-getting-started)
 - [Project Structure](#-project-structure)
@@ -53,7 +53,7 @@ A comprehensive web-based Employee Management System built with ASP.NET Core MVC
 - ✔️ Client and server-side validation
 - 🍞 Toast notifications for user feedback
 
-##Tech Stack
+## ✔ Tech Stack
 
 ### Backend
 - **Framework**: ASP.NET Core 8.0 MVC
