@@ -54,7 +54,7 @@ A comprehensive web-based Employee Management System built with ASP.NET Core MVC
 - ✔️ Client and server-side validation
 - 🍞 Toast notifications for user feedback
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Backend
 - **Framework**: ASP.NET Core 8.0 MVC
@@ -74,7 +74,7 @@ A comprehensive web-based Employee Management System built with ASP.NET Core MVC
 - **Email**: SMTP (System.Net.Mail)
 - **File Upload**: IFormFile with validation
 
-## 🏗️ Architecture
+##  Architecture
 
 This project follows a **3-tier architecture** pattern:
 
@@ -250,7 +250,3 @@ Implements soft delete pattern:
 
 
 ---
-
-⭐ If you found this project helpful, please give it a star!
-
-**Last Updated**
